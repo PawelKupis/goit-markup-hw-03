@@ -10,8 +10,44 @@ body {
   font-family: var(--main-font);
   color: var(--text-default);
 }
-a {
+a{
   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+.list {
+  list-style: none;
+}
+.container {
+  width: 1600px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* ########### COMPONENT ############## */
 .header-btn,
@@ -31,6 +67,30 @@ a {
 /* ########### END COMPONENT ############## */
 
 /* ########### MENU ############## */
+.container .menu {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.menu-logo{
+  margin-left: 215px;
+  margin-right: 93px;
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-list-item:not(:last-child){
+  margin-right: 46px;
+}
+.menu .menu-mail{
+  margin-left: auto;
+  margin-right: 50px;
+}
+.menu-phonenumber{
+  margin-right: 227px; */
+}
+
 .menu-logo-item {
   font-family: var(--secondary-font);
   font-size: 26px;
@@ -72,7 +132,14 @@ a {
 /* ########### END MENU ############## */
 
 /* ########### HEDER ############## */
-.header {
+
+.container .header{
+padding: 200px 452px 280px;
+}
+
+.header{
+  
+  margin-bottom: 40px;
   background: #2f303a;
 }
 .header-title {
@@ -85,6 +152,8 @@ a {
   color: var(--white);
 }
 .header-btn {
+  width: 200px;
+  padding: 10px 42px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -99,6 +168,13 @@ a {
 /* ########### END HEDER ############## */
 
 /* ########### MAIN ############## */
+
+.strengths .container {
+  display: flex;
+}
+.strengths-list{
+  display: flex;
+}
 
 .strengths-title {
   font-size: 14px;
