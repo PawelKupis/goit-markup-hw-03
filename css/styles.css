@@ -1,0 +1,185 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-color: #2196f3;
+  --text-default: #212121;
+  --description: #757575;
+  --white: #ffffff;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--text-default);
+}
+a {
+  text-decoration: none;
+}
+/* ########### COMPONENT ############## */
+.header-btn,
+.filters-list-btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header-btn:hover,
+.header-btn:focus,
+.filters-list-btn:hover,
+.filters-list-btn:focus {
+  background: var(--main-color);
+  color: var(--white);
+}
+
+/* ########### END COMPONENT ############## */
+
+/* ########### MENU ############## */
+.menu-logo-item {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.menu-logo-accent {
+  color: var(--text-default);
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--text-default);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--main-color);
+}
+.menu-mail,
+.menu-phonenumber {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--description);
+}
+.menu-mail:hover,
+.menu-mail:focus,
+.menu-phonenumber:hover,
+.menu-phonenumber:focus {
+  color: var(--main-color);
+}
+
+/* ########### END MENU ############## */
+
+/* ########### HEDER ############## */
+.header {
+  background: #2f303a;
+}
+.header-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.333;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.header-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-default);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* ########### END HEDER ############## */
+
+/* ########### MAIN ############## */
+
+.strengths-title {
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.strengths-about {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--description);
+}
+.whatwedo-title,
+.ourteam-title {
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.ourteam-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.ourteam-list-job {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--description);
+}
+
+/* ########### END MAIN ############## */
+
+/* ########### FOOTER ############## */
+footer {
+  background: #2f303a;
+}
+.address-list-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
+{
+  color: var(--white);
+}
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--main-color);
+}
+.footer-logo-accent {
+  color: var(--white);
+}
+
+/* ########### END FOOTER ############## */
+
+/* ########### PORTFOLIO ############## */
+.filters-list-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-default);
+}
+.projects-list-title {
+  font-size: 18px;
+  line-height: 1.666;
+  letter-spacing: 0.06em;
+}
+.projects-list-type {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--description);
+}
+/* ########### END PORTFOLIO ############## */
