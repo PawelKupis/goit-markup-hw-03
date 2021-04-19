@@ -67,14 +67,21 @@ img {
 /* ########### END COMPONENT ############## */
 
 /* ########### MENU ############## */
+.menu{
+  
+}
+
 .menu .container {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC ;
+  
 }
 .menu-logo{
   margin-right: 93px;
+
 }
 .navigation-list {
   display: flex;
@@ -130,7 +137,7 @@ img {
 /* ########### HEDER ############## */
 
 
-.header{
+.header .container{
   background: #2f303a;
 }
 .container .header-item{
@@ -172,7 +179,6 @@ img {
 /* ########### END HEDER ############## */
 
 /* ########### MAIN ############## */
-
 .strengths .container {
   display: flex;
 }
@@ -241,15 +247,16 @@ img {
 /* ########### END MAIN ############## */
 
 /* ########### FOOTER ############## */
+.footer .container{
+  background: #2f303a;
+}
+
 .logo-footer {
   padding-top: 60px;
   margin-bottom: 20px;
 }
 .address-list-item:not(:last-child) {
 margin-bottom: 9px;
-}
-footer {
-  background: #2f303a;
 }
 .address{
   padding-bottom: 60px;
@@ -277,7 +284,19 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
 /* ########### END FOOTER ############## */
 
 /* ########### PORTFOLIO ############## */
+.container .filters-list{
+  display: flex;
+  justify-content: center;
+}
+.filters-list-item{
+  padding-top: 180px;
+}
+.filters-list-item:not(:last-child){
+  margin-right: 8px;
+}
+
 .filters-list-btn {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
