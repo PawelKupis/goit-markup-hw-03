@@ -39,7 +39,7 @@ img {
   list-style: none;
 }
 .container {
-  width: 1200px;
+  width: 1600px;
   padding: 0 215px;
   align-items: center;
   margin: 0 auto;
@@ -129,20 +129,25 @@ img {
 
 /* ########### HEDER ############## */
 
-.header .container {
-  background: #2f303a;
-}
 
 .header{
-  height: 600px;
-  /* padding: 200px 452px 280px; */
-  
-  
+  background: #2f303a;
 }
+.container .header-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-item{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .header-title {
-  
-  width: 696px;
   margin-bottom: 40px;
+  width: 696px;
+  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.333;
@@ -154,11 +159,10 @@ img {
 .header-btn {
   width: 200px;
   padding: 10px 41px;
+  border: 0px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--text-default);
@@ -174,7 +178,6 @@ img {
 }
 .strengths-list{
   display: flex;
-  padding-left: 215px;
 }
 .strengths-item:not(:last-child){
   margin-right: 46px;
@@ -183,7 +186,6 @@ img {
 .strengths-title {
   margin-bottom: 10px;
   width: 270px;
-  /* height: 16px; */
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
@@ -191,7 +193,6 @@ img {
 }
 .strengths-about {
   width: 270px;
-  /* height: 75px; */
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -199,11 +200,29 @@ img {
 }
 .whatwedo-title,
 .ourteam-title {
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
 }
+.whatwedo-list {
+  display: flex;
+}
+.whatwedo-list-item:not(:last-child),
+.ourteam-list-item:not(:last-child){
+  margin-right: 30px;
+}
+.ourteam-list{
+  display: flex;
+}
+.ourteam-list-img{
+  margin-bottom: 30px;
+}
+.ourteam-list-name{
+  margin-bottom: 10px;
+}
+
 .ourteam-list-name {
   font-weight: 500;
   font-size: 16px;
@@ -222,8 +241,18 @@ img {
 /* ########### END MAIN ############## */
 
 /* ########### FOOTER ############## */
+.logo-footer {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+.address-list-item:not(:last-child) {
+margin-bottom: 9px;
+}
 footer {
   background: #2f303a;
+}
+.address{
+  padding-bottom: 60px;
 }
 .address-list-link {
   font-style: normal;
