@@ -212,6 +212,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.whatwedo{
+  padding-bottom: 94px;
+}
 .whatwedo-list {
   display: flex;
 }
@@ -219,8 +222,17 @@ img {
 .ourteam-list-item:not(:last-child){
   margin-right: 30px;
 }
+.ourteam .container{
+  background: #F5F4FA;
+}
 .ourteam-list{
   display: flex;
+}
+.ourteam-list-item{
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
 }
 .ourteam-list-img{
   margin-bottom: 30px;
@@ -288,9 +300,6 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
   display: flex;
   justify-content: center;
 }
-.filters-list-item{
-  padding-top: 180px;
-}
 .filters-list-item:not(:last-child){
   margin-right: 8px;
 }
@@ -303,6 +312,39 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-default);
+}
+
+.container .projects-list {
+  display: flex;
+}
+.projects-list{
+  min-height: 1272px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.projects-list-img {
+  margin-bottom: 20px;
+}
+.projects-list-title{
+  margin-bottom: 4px;
+  padding-left: 24px;
+}
+.projects-list-type {
+padding-bottom: 20px;
+padding-left: 24px;
+}
+.projects-list-item:not(:nth-child(3n)){
+  margin-right: 30px;
+}
+.projects-list-item:nth-child(-n+6){
+margin-bottom: 30px;
+}
+/* .projects-list-item{
+  border: 1px solid #EEEEEE;
+} */
+
+
 }
 .projects-list-title {
   font-size: 18px;
